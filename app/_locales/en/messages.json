@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "add2Weekly",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Envie uma sugestão de link para a BrazilJS Weekly",
+    "description": "The description of the application"
+  }
+}
