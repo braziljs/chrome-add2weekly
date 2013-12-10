@@ -116,7 +116,6 @@ module.exports = function (grunt) {
                 imagesDir: '<%= yeoman.app %>/images',
                 javascriptsDir: '<%= yeoman.app %>/scripts',
                 fontsDir: '<%= yeoman.app %>/styles/fonts',
-                importPath: '<%= yeoman.app %>/bower_components',
                 httpImagesPath: '/images',
                 httpGeneratedImagesPath: '/images/generated',
                 relativeAssets: false
@@ -250,7 +249,9 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     buildnumber: true,
-                    background: 'scripts/background.js'
+                    background: {
+                        target: 'scripts/background.js'
+                    }
                 },
                 src: '<%= yeoman.app %>',
                 dest: '<%= yeoman.dist %>'
