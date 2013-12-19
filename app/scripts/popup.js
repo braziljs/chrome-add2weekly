@@ -4,7 +4,7 @@ chrome.tabs.getSelected(null, function(tab) {
     chrome.tabs.sendRequest(tab.id, { action: 'initPopUp' }, function(response) {
         console.log('>>> res', response);
 
-        var iSrc = 'http://braziljs.org/services/add2weekly/mdl-add2weekly.html?',
+        var iSrc = 'http://braziljs.github.io/add2weekly/mdl-add2weekly.html?',
             create = function(t, l, c, dv) {
                 var i = document.createElement('iframe');
                 c.appendChild(dv);
