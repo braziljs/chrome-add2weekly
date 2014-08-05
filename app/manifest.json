@@ -24,8 +24,7 @@
     "content_scripts": [
         {
             "matches": [
-                "http://*/*",
-                "https://*/*"
+                "<all_urls>"
             ],
             "css": [
                 "styles/main.css"
@@ -39,8 +38,7 @@
     ],
     "permissions": [
         "tabs",
-        "http://*/*",
-        "https://*/*",
-        "http://braziljs.org/services/add2weekly/mdl-add2weekly.html"
+        "<all_urls>",
+        "http://braziljs.github.io/*"
     ]
 }
