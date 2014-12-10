@@ -34,8 +34,6 @@
         }
     ],
     "permissions": [
-        "tabs",
-        "<all_urls>",
-        "http://braziljs.github.io/*"
+        "<all_urls>"
     ]
 }
