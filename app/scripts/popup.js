@@ -12,8 +12,8 @@ chrome.tabs.getSelected(null, function(tab) {
                 i.style.position = 'relative';
                 i.style.background = 'white';
                 i.style.margin = '0px';
-                i.style.width = '600px';
-                i.style.height = '500px';
+                i.style.width = '100%';
+                i.style.height = '100%';
                 i.style.border = 'none';
 
                 c.appendChild(i);
